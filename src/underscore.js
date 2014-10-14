@@ -72,8 +72,7 @@ var myFunctions = {
   // Also, you will need to use recursion
   // when you find an array inside of an array
   flatten: function(array) {
-    // Array.isArray(arr[i]) 
-//    arr[i] constructor.name === Array
+
   arr2 = [];
 
   for( i = 0 ; i < array.length; array ++) {
@@ -89,12 +88,3 @@ var myFunctions = {
 
 module.exports = myFunctions;
 
-
-
-// creat new array
-//  if is array 
-//   array[i].constructor.name === "Arrya" {
-//     flat Arr = flarArr.conccat(myFunctions.flatten(arr[i]))
-//   } else push into new array
-
-// object.name of method
